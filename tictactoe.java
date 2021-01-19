@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class tictactoe{
 
 	public static Scanner sc = new Scanner(System.in);
