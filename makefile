@@ -49,7 +49,8 @@ FILE= tictactoe
 
 CLASSES = \
 	tictactoe.java \
-	singlePlayer.java
+	singlePlayer.java \
+	multiPlayer.java
 
 #
 # MAIN is a variable with the name of the file containing the main method
