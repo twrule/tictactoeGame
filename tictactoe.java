@@ -14,8 +14,12 @@ public class tictactoe{
 			sing = new singlePlayer();
 			sing.play(currBoard);
 		}
-		else
-			println("in progress");
+		else{
+			multiPlayer mult;
+			mult = new multiPlayer();
+			mult.play(currBoard);
+		}
+
 	}
 
 	private static void singlePlayer(){
