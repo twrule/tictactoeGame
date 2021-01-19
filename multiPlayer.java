@@ -106,6 +106,8 @@ public class multiPlayer{
 				println("Heck Ya " + playerTwo + "! Good job winning!!!");
 				println(playerOne + " you need to work on your gameplay.");
 			}
+			println();
+		    println(); 
 		} else if(currBoard[3] == currBoard[4] && currBoard[4] == currBoard[5]){
 			if(currBoard[3].equals("X")){
 				gameOver = true;
@@ -116,6 +118,8 @@ public class multiPlayer{
 				println("Heck Ya " + playerTwo + "! Good job winning!!!");
 				println(playerOne + " you need to work on your gameplay.");
 			}
+			println();
+		    println(); 
 		} else if(currBoard[6] == currBoard[7] && currBoard[7] == currBoard[8]){
 			if(currBoard[8].equals("X")){
 				gameOver = true;
@@ -126,6 +130,8 @@ public class multiPlayer{
 				println("Heck Ya " + playerTwo + "! Good job winning!!!");
 				println(playerOne + " you need to work on your gameplay.");
 			}
+			println();
+		    println(); 
 		}
 		// Vertical Winning Moves
 		else if(currBoard[0] == currBoard[3] && currBoard[3] == currBoard[6]){
@@ -138,6 +144,8 @@ public class multiPlayer{
 				println("Heck Ya " + playerTwo + "! Good job winning!!!");
 				println(playerOne + " you need to work on your gameplay.");
 			}
+			println();
+		    println(); 
 		} else if(currBoard[1] == currBoard[4] && currBoard[4] == currBoard[7]){
 			if(currBoard[1].equals("X")){
 				gameOver = true;
@@ -148,6 +156,8 @@ public class multiPlayer{
 				println("Heck Ya " + playerTwo + "! Good job winning!!!");
 				println(playerOne + " you need to work on your gameplay.");
 			}
+			println();
+		    println(); 
 		} else if(currBoard[2] == currBoard[5] && currBoard[5] == currBoard[8]){
 			if(currBoard[8].equals("X")){
 				gameOver = true;
@@ -158,6 +168,8 @@ public class multiPlayer{
 				println("Heck Ya " + playerTwo + "! Good job winning!!!");
 				println(playerOne + " you need to work on your gameplay.");
 			}
+			println();
+		    println(); 
 		}
 		// Diagonal Winning Moves
 		else if(currBoard[0] == currBoard[4] && currBoard[4] == currBoard[8]){
@@ -170,6 +182,8 @@ public class multiPlayer{
 				println("Heck Ya " + playerTwo + "! Good job winning!!!");
 				println(playerOne + " you need to work on your gameplay.");
 			}
+			println();
+		    println(); 
 		} else if(currBoard[2] == currBoard[4] && currBoard[4] == currBoard[6]){
 			if(currBoard[1].equals("X")){
 				gameOver = true;
@@ -180,6 +194,8 @@ public class multiPlayer{
 				println("Heck Ya " + playerTwo + "! Good job winning!!!");
 				println(playerOne + " you need to work on your gameplay.");
 			}
+			println();
+		    println(); 
 		}
 
 		println();
